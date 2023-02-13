@@ -1,6 +1,7 @@
 x=int(input("Enter the number of steps -"))
 a=1
 b=2
+c=0
 if x==1:
     print("1")
 elif x==2:
@@ -10,4 +11,4 @@ else:
         c=a+b
         a=b
         b=c
-print(c)
+    print(c)
