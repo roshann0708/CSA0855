@@ -6,8 +6,8 @@ if(n>0):
         a=int(input("Enter the element-"))
         if(a%2==0):
             e=e+(a*a)
-    else:
-        o=o+(a*a)
+        else:
+            o=o+(a*a)
     print(o,e)
 else:
     print("Invalid input")
